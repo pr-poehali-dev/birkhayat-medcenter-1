@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -89,6 +89,25 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				display: ['Cormorant Garamond', 'serif'],
+				cormorant: ['Cormorant', 'serif'],
+				golos: ['Golos Text', 'sans-serif'],
+			},
+			colors: {
+				gold: {
+					DEFAULT: '#C9A84C',
+					light: '#E8C97A',
+					pale: '#F5E6C0',
+					dark: '#B8922A',
+				},
+				dark: {
+					DEFAULT: '#0C0C10',
+					2: '#13131A',
+					3: '#1A1A24',
+					4: '#22222F',
+				}
 			}
 		}
 	},
